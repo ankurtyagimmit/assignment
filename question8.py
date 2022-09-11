@@ -1,7 +1,6 @@
-Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
-print("MySirG")
-MySirG
-
-=========== RESTART: C:/Users/Admin/Desktop/Assignment1/question7.py ===========
-Ankur Tyagi
+p=int(input("Enetr Principal Amunt:"))
+r=float(input("Enter rate of interest:"))
+t=int(input("Enter time:"))
+SI=(p*r*t)/100
+print("Simple interest is:",SI)
+print()
